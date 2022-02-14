@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract AccessTokens is ERC20  {
+contract AccessToken is ERC20  {
     address owner;
 
     constructor() ERC20("AccessToken", "AT") {
