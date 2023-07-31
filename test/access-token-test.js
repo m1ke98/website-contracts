@@ -15,18 +15,18 @@ describe("Access Token", function () {
     });
 
     describe("Mint", function () {
-        it("Should show the owner already holds a token", async function () {
+        it("Show the owner already holds a token", async function () {
             expect(await aToken.balanceOf(owner.address)).to.equal(1);
         });
 
-        it("Should allow address_1 to mint a single token", async function () {
+        it("Mint a single token", async function () {
             const mintToken = await aToken.connect(addr1).mint();
             await mintToken.wait();
 
             expect(await aToken.balanceOf(addr1.address)).to.equal(1);
         });
 
-        it("Should not allow address_1 to mint again", async function () {
+        it("Should not allow multiple mints", async function () {
             const mintToken = await aToken.connect(addr1).mint();
             await mintToken.wait();
             
