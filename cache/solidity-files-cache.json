@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/michaeldargenio/Website/smart-contracts/contracts/AccessToken.sol": {
-      "lastModificationDate": 1644873017658,
-      "contentHash": "ca5ddb8688ccf6de27f698c81f934344",
+      "lastModificationDate": 1690835642318,
+      "contentHash": "2bcf91b16f429063c6c18496bf1c5b7c",
       "sourceName": "contracts/AccessToken.sol",
       "solcConfig": {
         "version": "0.8.0",
